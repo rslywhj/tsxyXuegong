@@ -39,7 +39,7 @@ data1 = {'username': username1,
          'token': token}
 # 设置请求头
 headers = {"Host": "xuegong.tsc.edu.cn",
-           "Cookies": 'username=4183213233; menuVisible=0; JSESSIONID=' + JSESSOONID
+           "Cookies": 'JSESSIONID=' + JSESSOONID
            }
 # 登录
 s = mysession.post(url0, data1, headers)
